@@ -1,0 +1,16 @@
+
+  .buscarlixeiras_container{
+  padding: 2em;
+
+  }
+  
+.map {
+  height: 400px;
+  width: 100%;
+  margin-top: 37px; 
+ 
+}
+
+.info {
+  flex: 1; /* Ocupar todo o espaço disponível */
+}

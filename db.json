@@ -1,0 +1,91 @@
+{
+  "solicitacoes": [
+    {
+      "name": "Kadu Miranda",
+      "endereco": "Rua anselmo, 4432",
+      "nomeSolicitacao": "Limpeza no bairro Itaparica",
+      "descricao": "Muito lixo na rua",
+      "category": {
+        "id": "2",
+        "name": "Coleta de Lixo Especial"
+      },
+      "cost": 2,
+      "services": [
+        {
+          "name": "Latas de lixo",
+          "cost": "2",
+          "description": "Latas para coleta de lixo na rua lopez, 3342",
+          "id": "b1696b3c-db2d-4e87-bf5b-c4fce5f43e0a"
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "eventos": [
+    {
+      "name": "Julia Ramos",
+      "endereco": "Rua anselmo, 4432",
+      "nomeEvento": "Alegria no bairro Itaparica ",
+      "data": "2023-07-20",
+      "hora": "15:00",
+      "category": {
+        "id": "1",
+        "name": "Limpeza Comunitária"
+      },
+      "cost": 3,
+      "services": [
+        {
+          "name": "Latas de lixo",
+          "cost": "3",
+          "description": "Latas para coleta de lixo na rua lopez, 3342",
+          "id": "a3f94f11-29a4-471b-a745-0671505ded70"
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "categories1": [
+    {
+      "id": 1,
+      "name": "Limpeza de Ruas e Calçadas"
+    },
+    {
+      "id": 2,
+      "name": "Coleta de Lixo Especial"
+    },
+    {
+      "id": 3,
+      "name": "Limpeza de Áreas Verdes e Parques"
+    },
+    {
+      "id": 4,
+      "name": "Manutenção de Bueiros e Canais"
+    },
+    {
+      "id": 5,
+      "name": "Remoção de Grafites e Pichações Indesejadas"
+    }
+  ],
+  "categories2": [
+    {
+      "id": 1,
+      "name": "Limpeza Comunitária"
+    },
+    {
+      "id": 2,
+      "name": "Feira Sustentável e de Reciclagem"
+    },
+    {
+      "id": 3,
+      "name": "Concurso de Arte Reciclada"
+    },
+    {
+      "id": 4,
+      "name": "Conferência sobre Sustentabilidade Urbana"
+    },
+    {
+      "id": 5,
+      "name": "Trilha Ecológica e Limpeza de Resíduos"
+    }
+  ]
+}
