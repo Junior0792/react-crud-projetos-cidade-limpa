@@ -14,6 +14,7 @@ function Eventos() {
   const [removeLoading, setRemoveLoading] = useState(false);
   const [eventoMessage, setEventoMessage] = useState("");
 
+
   const location = useLocation();
   let message = "";
 

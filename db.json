@@ -19,28 +19,34 @@
         }
       ],
       "id": 1
+    },
+    {
+      "name": "Julia Ramos",
+      "endereco": "Rua anselmo, 4432",
+      "nomeSolicitacao": "Solicitar latas de lixo",
+      "descricao": "Limpar rua",
+      "category": {
+        "id": "2",
+        "name": "Coleta de Lixo Especial"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
     }
   ],
   "eventos": [
     {
       "name": "Julia Ramos",
       "endereco": "Rua anselmo, 4432",
-      "nomeEvento": "Alegria no bairro Itaparica ",
-      "data": "2023-07-20",
-      "hora": "15:00",
+      "nomeEvento": "Alegria no bairro Itaparica",
+      "data": "2023-07-07",
+      "hora": "14:00",
       "category": {
-        "id": "1",
-        "name": "Limpeza Comunitária"
+        "id": "2",
+        "name": "Feira Sustentável e de Reciclagem"
       },
-      "cost": 3,
-      "services": [
-        {
-          "name": "Latas de lixo",
-          "cost": "3",
-          "description": "Latas para coleta de lixo na rua lopez, 3342",
-          "id": "a3f94f11-29a4-471b-a745-0671505ded70"
-        }
-      ],
+      "cost": 0,
+      "services": [],
       "id": 1
     }
   ],

@@ -14,6 +14,9 @@ function Solicitacoes() {
   const [removeLoading, setRemoveLoading] = useState(false);
   const [solicitacaoMessage, setSolicitacaoMessage] = useState("");
 
+  console.log(solicitacoes);
+
+
   const location = useLocation();
   let message = "";
 

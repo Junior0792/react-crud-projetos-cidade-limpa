@@ -2,7 +2,6 @@ import { useHistory } from "react-router-dom";
 import SolicitacaoForm from "../solicitacao/SolicitacaoForm";
 
 import styles from "./NewSolicitacao.module.css";
-import Solicitacao from "./Solicitacao";
 
 function NewSolicitacao() {
   const history = useHistory();
@@ -11,12 +10,13 @@ function NewSolicitacao() {
     solicitacao.cost = 0;
     solicitacao.services = [];
 
+
     fetch("http://localhost:5000/solicitacoes", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(Solicitacao),
+      body: JSON.stringify(solicitacao),
     })
       .then((resp) => resp.json())
       .then((data) => {

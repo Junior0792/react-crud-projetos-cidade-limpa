@@ -37,11 +37,12 @@ function Solicitacao() {
     }, 500);
   }, [id]);
 
+
   function editPost(solicitacao) {
     setMessage("");
 
     if (solicitacao.endereco < solicitacao.cost) {
-      setMessage("O orçamento não pode ser menor que o custo do projeto!");
+      setMessage("");
       setType("error");
       return false;
     }
@@ -73,7 +74,7 @@ function Solicitacao() {
     const newCost = parseFloat(solicitacao.cost) + parseFloat(lastServiceCost);
 
     if (newCost > parseFloat(solicitacao.endereco)) {
-      setMessage("Orçamento ultrapassado, verifique o valor do serviço");
+      setMessage("");
       setType("error");
       solicitacao.services.pop();
       return false;

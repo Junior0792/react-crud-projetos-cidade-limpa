@@ -41,7 +41,7 @@ function Evento() {
     setMessage("");
 
     if (evento.endereco < evento.cost) {
-      setMessage("O orçamento não pode ser menor que o custo do projeto!");
+      setMessage("");
       setType("error");
       return false;
     }
@@ -73,7 +73,7 @@ function Evento() {
     const newCost = parseFloat(evento.cost) + parseFloat(lastServiceCost);
 
     if (newCost > parseFloat(evento.endereco)) {
-      setMessage("Orçamento ultrapassado, verifique o valor do serviço");
+      setMessage("");
       setType("error");
       evento.services.pop();
       return false;
@@ -147,7 +147,7 @@ function Evento() {
               {!showEventoForm ? (
                 <div className={styles.evento_info}>
                   <p>
-                    <span>Tipo de evento:</span> {evento.category.name}
+                    <span>Tipo de evento:</span> {evento.category?.name || ''}
                   </p>
 
                   <p>

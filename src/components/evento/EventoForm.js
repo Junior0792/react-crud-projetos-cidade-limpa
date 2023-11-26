@@ -6,9 +6,9 @@ import SubmitButton from "../form/SubmitButton";
 
 import styles from "./EventoForm.module.css";
 
-function EventoForm({ handleSubmit, btnText, eventoData }) {
+function EventoForm({ handleSubmit, btnText, projectData }) {
   const [categories, setCategories] = useState([]);
-  const [evento, setEvento] = useState(eventoData || {});
+  const [evento, setEvento] = useState(projectData || {});
 
   useEffect(() => {
     fetch("http://localhost:5000/categories2", {
