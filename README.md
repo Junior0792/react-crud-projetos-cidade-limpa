@@ -15,7 +15,7 @@
 - Nesse sistema é possível cadastrar, listar, editar e excluir uma solicitação e evento.
 - Também é possível controlar os serviços e contabilizar, selecionar a categoria da solicitação, evento e adicionar serviços.
 
-> ## <a name="conteudo-do-curso"></a> Conteúdo do curso
+> ## <a name="conteudo"></a> Conteúdo
 
 - Componentização de alguns elementos
 - Uso do css module como estilos
